@@ -7,7 +7,7 @@ load_all()
 # next step
 count_classes(data_frame = mtcars, class_col = cyl)
 
-# check if there is any errors
+# check if there is any errors; if there is, fix it!
 check()
 
 count_classes <- function(data_frame, class_col) {
