@@ -1,3 +1,15 @@
+# create r script
+use_r("count_classes")
+
+# next step
+load_all()
+
+# next step
+count_classes(data_frame = mtcars, class_col = cyl)
+
+# check if there is any errors
+check()
+
 count_classes <- function(data_frame, class_col) {
   if (!is.data.frame(data_frame)) {
     stop("`data_frame` should be a data frame or data frame extension (e.g. a tibble)")
