@@ -2,7 +2,8 @@ Package: eda
 Title: A Package for Data Wrangling
 Version: 0.0.0.9000
 Authors@R: 
-    person("G. Alexi","Rodriguez-Arelis", "alexrod@stat.ubc.ca", role = c("aut", "cre"))
+    person("Tatiana","Petukhova", "tpetukhovaorchid@gmail.com", role = c("aut", "cre"),
+comment = c(ORCID = "https://orcid.org/0000-0001-5383-6600"))
 Description: Provide data wrangling and summary functions to conduct a proper 
     exploratory data analysis.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
